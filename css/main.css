@@ -1,0 +1,105 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+	height: 50%;
+}
+
+.wind {
+	background: url('../images/pool980.gif'),  
+			  url('../images/winter-coat.svg'), 
+			  linear-gradient(to right, black, teal), 
+			  linear-gradient(to right, black, black); 		
+	background-position: center center ;
+	background-size: cover;
+	background-blend-mode: darken, screen, hard-light, exclusion;
+	animation: fadein 5s;
+}
+
+.fire {
+	/*Cocktail-Cinemagraph-5**, fog*, 05-igazu-falls-cinemagraph*, fall, underwater, reflect, mount, lights*/
+	background: url('../images/fire.gif'),
+				url('../images/fog.gif'),
+			    url('../images/hood.svg'),
+			    linear-gradient(to right, black, black),
+			    linear-gradient(to right, black, black),
+			    linear-gradient(to right, grey, grey); 
+	background-position: center top ;
+	background-size: cover;
+	background-blend-mode: lighten, exclusion, screen, soft-light;
+	background-blend-mode: screen, hard-light, exclusion;
+	animation: fadein 5s;
+
+}
+
+.ether {
+  background: url('../images/northern-lights.gif'),  
+			  url('../images/mus.svg');
+ 				
+  background-position: right bottom ;
+  background-size: cover;
+  background-blend-mode: darken, screen, soft-light, exclusion;
+  animation: fadein 5s;
+}
+
+.earth {
+	background: url('../images/fall.gif'),  
+			   url('../images/curly.svg') 
+			   /* url('../images/sky.gif'); */, 
+			  linear-gradient(to right, black, black),
+			 
+			  linear-gradient(to right, brown, grey); 		
+	background-position: center center ;
+	background-size: cover;
+	background-blend-mode: darken, screen, hard-light, exclusion;
+	animation: fadein 5s;
+}
+
+.overlay{ 
+	background-color: rgba(45, 36, 36, 0.4);
+	 border: none !important;
+	width: 50%;
+	height: 50%;
+	float:left;
+}	
+
+.overlay > img{ 
+	width: 100%; 
+	height: 100%;
+	animation: fadein 5s;
+}
+
+
+@keyframes fadein {
+    from { 
+	    opacity: 0; 
+	}
+    
+    to { 
+	    opacity: 1; 
+	}
+}
+
+button{ 
+	position: absolute; 
+	top: 5%; 
+	right: 5%;
+	background-color: red;
+	border: none;
+	color: white;
+}
+
+.hide{ 
+	display: none;
+}
