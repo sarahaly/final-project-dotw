@@ -1,1 +1,5 @@
-# final-project-dotw
+# dotw-final-project
+
+With this project, I intend to explore the expression of human emotion. I will be using double exposure images that will integrate naturalistic elements to further the expression of the human state of mind and perceptions of the people in the portraits. While the portraits may be of different individuals, the images will relate to each other aesthetically with the use of similar natural elements, possibly animals, different colors, and/or natural landscapes. I want the double exposure images to have a serene quality, regardless of the state of mind I’m attempting to express with the combination of images. The interactivity on the webpages will fall in line with the serenity and calm quality that will be present in the images. I would like to have the images transition smoothly as the user moves between them. I will consider playing with the opacity of the images as they “enter” or “exit” and the position or location that they might enter from. I intend to make any sort of interactivity fluid and subtle.  Below is an example of a double exposure image by Christoffer Relander that inspired me to choose this to idea for my final project.
+
+![alt tag](https://www.catinwater.com/wp-content/uploads/2014/02/christoffer-6-640x800.jpg)
